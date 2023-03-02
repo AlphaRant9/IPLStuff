@@ -8,9 +8,9 @@ paper = 2;
 scissors = 3;
 
 def whoWon(userNum, rps, userStr, score, compScore):
-    if (rps == 1):
+    if (rps == rock):
         compStr = "Rock";
-    elif (rps == 2):
+    elif (rps == paper):
         compStr = "Paper";
     else:
         compStr = "Scissors"
