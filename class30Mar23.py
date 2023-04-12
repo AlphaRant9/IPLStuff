@@ -46,7 +46,7 @@ def calculate(userNum):
         print("Count to 10: " + str(num))
         num += 1
 
-    num = 1.0
+    num = 0.0
     while abs(num) <= abs(userNum):
         print("Count to User Num: " + str(num))
         num += 1 * signum(userNum)
@@ -55,7 +55,7 @@ def calculate(userNum):
 
 while running:
 
-    userInput = input("Please type in an integer.\n\t\t\t\t\t\t  ")
+    userInput = input("Please type in an integer.\n\t")
 
     if userInput.lower() == "exit" or userInput.lower() == "quit":
 
